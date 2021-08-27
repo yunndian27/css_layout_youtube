@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube切版</title>
+    <!-- reset -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- customs -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <!-- 上方 menu -->
+        <div id="header">
+            <div id="container">
+                <div class="menuLeft">
+                    <div class="square hamburger"><i class="fas fa-bars fa-lg"></i></div>
+                    <div class="logo">
+                        <img src="./images/800px-YouTube_Logo_2017.svg.png"><span>TW</span>
+                        <!-- <i class="fab fa-youtube"></i>YouTube<span>TW</span> -->
+                    </div>
+                </div>
+                <div class="menuMiddle">
+                    <div class="search">
+                        <input type="text" name="search" id="search" placeholder="搜尋">
+                        <div class="btnSearch">
+
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </div>
+                    <div class="square voice">
+                        <i class="fas fa-microphone fa-lg"></i>
+                    </div>
+                </div>
+                <div class="menuRight">
+                    <div class="square application">
+                        <i class="fas fa-th fa-lg"></i>
+                    </div>
+                    <div class="square setting">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </div>
+                    <div class="signIn">
+                        <i class="fas fa-user-circle fa-lg"></i> 登入
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 左側 menu -->
+        <div id="sideMenu">
+            <div class="sideContainer">
+                <div class="block blockspace"></div>
+                <div class="block">
+                    <ul>
+                        <li><a href="#"><i class="fas fa-home"></i>首頁</a></li>
+                        <li><a href="#"><i class="fas fa-compass"></i>探索</a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i>訂閱內容</a></li>
+                    </ul>
+                </div>
+                <div class="block">
+                    <ul>
+                        <li><a href="#"><i class="fas fa-photo-video"></i>媒體庫</a></li>
+                        <li><a href="#"><i class="fas fa-history"></i>觀看紀錄</a></li>
+                    </ul>
+                    <!-- <div class="media"></div>
+                    <div class="watchHistory"></div> -->
+                </div>
+                <div class="block">
+                    <div class="singInfo">登入帳戶即可對影片表示喜歡、發布留言及訂閱頻道。</div>
+                    <div class="signin">
+                        <i class="fas fa-user-circle fa-lg"></i> 登入
+                    </div>
+                    <!-- <div class="signin"></div> -->
+                </div>
+                <div class="block">
+                    <h3>
+                        <div class="title">YOUTUBE 精選</div>
+                    </h3>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-music"></i>音樂</a></li>
+                        <li><a href="#"><i class="fas fa-trophy"></i>體育</a></li>
+                        <li><a href="#"><i class="fas fa-gamepad"></i>遊戲</a></li>
+                        <li><a href="#"><i class="fas fa-newspaper"></i>新聞</a></li>
+                        <li><a href="#"><i class="fas fa-broadcast-tower"></i>直播</a></li>
+                        <li><a href="#"><i class="fas fa-mask"></i>360度影片</a></li>
+                    </ul>
+                </div>
+                <div class="block">
+                    <ul>
+                        <li><a href="#"><i class="fas fa-plus-circle"></i>瀏覽頻道</a></li>
+                    </ul>
+                </div>
+                <div class="block">
+                    <h3>
+                        <div class="title">更多 YOUTUBE 功能</div>
+                    </h3>
+                    <ul>
+                        <li><a href="#"><i class="fab fa-youtube"></i>YouTube Premium</a></li>
+                        <li><a href="#"><i class="fas fa-broadcast-tower"></i>直播</a></li>
+                    </ul>
+                </div>
+                <div class="block">
+                    <ul>
+                        <li><a href="#"><i class="fas fa-cog"></i>設定</a></li>
+                        <li><a href="#"><i class="fas fa-flag"></i>檢舉紀錄</a></li>
+                        <li><a href="#"><i class="fas fa-question-circle"></i>說明</a></li>
+                        <li><a href="#"><i class="fas fa-window-restore"></i>提供意見</a></li>
+                    </ul>
+                    <!-- <div class="setting"></div> -->
+                </div>
+                <div id="footer">
+                    <div class="block">
+                        <a href="#">簡介</a>
+                        <a href="#">媒體</a>
+                        <a href="#">版權</a>
+                        <a href="#">與我們聯絡</a>
+                        <a href="#">創作者</a>
+                        <a href="#">廣告</a>
+                        <a href="#">開發人員</a>
+                    </div>
+                    <div class="block">
+                        <a href="#">條款</a>
+                        <a href="#">隱私權</a>
+                        <a href="#">政策與安全性</a>
+                        <a href="#">YouTube運作方式</a>
+                        <a href="#">測試新功能</a>
+                    </div>
+                    <div class="block">© 2021 YunnDian 切版練習</div>
+                </div>
+            </div>
+        </div>
+        <!-- 內容區 -->
+        <div id="content">
+            <!-- 行銷區 -->
+            <section>
+                <div class="row">
+                    <div class="empty"></div>
+                </div>
+                <div class="row">
+                    <div class="recordAd">
+                        <div class="sloganBg"></div>
+                        <div class="cross"><i class="fas fa-times"></i></div>
+                        <div class="slogan">
+                            <div class="sloganImg"></div>
+                            盡情觀看所有喜愛影片，零廣告
+                        </div>
+                        <div class="rec">立即訂閱</div>
+                    </div>
+                </div>
+            </section>
+            <!-- 影片區 -->
+            <section>
+                <div class="row">
+                    <div class="card">
+                        <div class="hdPic"><a href="https://youtu.be/5vheNbQlsyU" target="_blank"><img
+                                    src="https://i.ytimg.com/vi/5vheNbQlsyU/hq720.jpg"></a></div>
+                        <div class="cardInfo">
+                            <div class="circlePic"><img
+                                    src="https://yt3.ggpht.com/ytc/AAUvwnihQs4JYGxS3xxKgkGKd3ivwVuYNufIM8YmHf4zpvg=s88-c-k-c0x00ffffff-no-rj">
+                            </div>
+                            <div class="musicName"><a href="https://youtu.be/5vheNbQlsyU" target="_blank"> Lady Gaga,
+                                    Bradley Cooper - Shallow (from A Star Is Born)</a></div>
+                            <div class="musicInfo">
+                                <div class="actor">Lady Gaga</div>
+                                <div class="watching">觀看次數：10億次‧2年前</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="hdPic"><a href="https://youtu.be/adLGHcj_fmA" target="_blank"><img
+                                    src="https://i.ytimg.com/vi/adLGHcj_fmA/hq720.jpg"></a></div>
+                        <div class="cardInfo">
+                            <div class="circlePic"><img
+                                    src="https://yt3.ggpht.com/ytc/AAUvwnjQGfD8VqPmCMjy5Bx06LExf7GwMQ_BijYt2eFBP2o=s88-c-k-c0x00ffffff-no-rj">
+                            </div>
+                            <div class="musicName">Bruno Mars, Anderson .Paak, Silk Sonic - Leave the Door Open</div>
+                            <div class="musicInfo">
+                                <div class="actor">Bruno Mars</div>
+                                <div class="watching">觀看次數：1.7億次‧一個月前</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="hdPic"><img src="https://i.ytimg.com/vi/ODgTP0xAi2c/hq720.jpg"></div>
+                        <div class="cardInfo">
+                            <div class="circlePic"><img
+                                    src="https://yt3.ggpht.com/ytc/AAUvwnhDQ10gWHK3Wj7HxsjXYrdmvfmtU_8cprZV_v31=s68-c-k-c0x00ffffff-no-rj">
+                            </div>
+                            <div class="musicName">지브리 스튜디오 OST 곡 모음10시간 연속재생 株式会社スタジオジブリ...</div>
+                            <div class="musicInfo">
+                                <div class="actor">스튜디오 지브리 Ghibli Studio</div>
+                                <div class="watching">觀看次數：2.6萬次．1個月前</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="hdPic"><img src="https://i.ytimg.com/vi/lswoCJn3JNA/hq720.jpg"></div>
+                        <div class="cardInfo">
+                            <div class="circlePic"><img
+                                    src="https://yt3.ggpht.com/ytc/AAUvwniqAsOkhXdwEBfNHsVROd7EDqOjlAhBnjXriQIz2g=s68-c-k-c0x00ffffff-no-rj">
+                            </div>
+                            <div class="musicName">我們這一家 第011話【媽媽出現了/媽媽的用詞】| Muse木棉花 動畫 線上看</div>
+                            <div class="musicInfo">
+                                <div class="actor">Muse木棉花-TW</div>
+                                <div class="watching">觀看次數：87萬次‧9個月前</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card">
+                        <div class="hdPic"><img src="https://i.ytimg.com/vi/9do1Uw4w-IU/hq720.jpg"></div>
+                        <div class="cardInfo">
+                            <div class="circlePic"><img
+                                    src="https://yt3.ggpht.com/ytc/AAUvwnh8F7NmRjrQtFmYzYi6oJLmTahKbSD2q7EQBVGe=s68-c-k-c0x00ffffff-no-rj">
+                            </div>
+                            <div class="musicName">2020年最火的英文歌曲 + 歐美流行音樂 + 超好聽中文+英文歌曲(精心挑選) ...</div>
+                            <div class="musicInfo">
+                                <div class="actor">超好聽的英文歌</div>
+                                <div class="watching">觀看次數：315萬次‧直播時間：8個月前</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="hdPic"><img src="https://i.ytimg.com/vi/DWDVNjqaX4o/hq720.jpg"></div>
+                        <div class="cardInfo">
+                            <div class="circlePic"><img
+                                    src="https://yt3.ggpht.com/ytc/AAUvwnjdL3U4zuVHT81nM6CnVLMi1EOXmPKJWiLULE9X=s68-c-k-c0x00ffffff-no-rj">
+                            </div>
+                            <div class="musicName">宮崎駿 - 鋼琴音樂 天籟琴聲 適合睡眠 舒眠 放鬆 看書 減壓 - PIANO MUSIC...</div>
+                            <div class="musicInfo">
+                                <div class="actor">鍾丹羿</div>
+                                <div class="watching">觀看次數：41,764次</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="hdPic"><img src="https://i.ytimg.com/vi/s-DnxnHT-_I/hq720.jpg"></div>
+                        <div class="cardInfo">
+                            <div class="circlePic"><img
+                                    src="https://yt3.ggpht.com/ytc/AAUvwnhGRYE2ayzeu4mqNNpvMBW-MbchzRMCCRRPuAXQ=s68-c-k-c0x00ffffff-no-rj">
+                            </div>
+                            <div class="musicName">俗女養肥記帶大家來吃新營美食！一起重遊舊地！來看看每天在新營都在吃...</div>
+                            <div class="musicInfo">
+                                <div class="actor">就是這味</div>
+                                <div class="watching">觀看次數：3.7萬次‧1天前</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="hdPic"><img src="https://i.ytimg.com/vi/QGJuMBdaqIw/hq720.jpg"></div>
+                        <div class="cardInfo">
+                            <div class="circlePic"><img
+                                    src="https://yt3.ggpht.com/ytc/AAUvwni2IqB_Tr_syYj-BkYc2vMFnNgjFCIVKKNFaWPaew=s88-c-k-c0x00ffffff-no-rj">
+                            </div>
+                            <div class="musicName">Katy Perry - Firework (Official Music Video)</div>
+                            <div class="musicInfo">
+                                <div class="actor">Katy Perry</div>
+                                <div class="watching">觀看次數：13億次‧10年前</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="hotTitle">發燒影片</div>
+                    <div class="card">
+                        <div class="hdPic"><img src="https://i.ytimg.com/vi/aXzVF3XeS8M/hq720.jpg"></div>
+                        <div class="cardInfo">
+                            <div class="circlePic"><img
+                                    src="https://yt3.ggpht.com/ytc/AAUvwnjyohBf2UtRQ29iClgUft1rWn5PZvZh7kGPHGda3yQ=s88-c-k-c0x00ffffff-no-rj">
+                            </div>
+                            <div class="musicName">Taylor Swift - Love Story (Taylor’s Version) [Official Lyric Video]
+                            </div>
+                            <div class="musicInfo">
+                                <div class="actor">Taylor Swift</div>
+                                <div class="watching">觀看次數：2,222萬次．2個月前</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="hdPic"><img src="https://i.ytimg.com/vi/5ZQUuER667w/hq720.jpg"></div>
+                        <div class="cardInfo">
+                            <div class="circlePic"><img
+                                    src="https://yt3.ggpht.com/ytc/AAUvwnhH5PzLkJsRI6RMmVHjwBTIEIR78gMlYq0ElwS80g=s68-c-k-c0x00ffffff-no-rj">
+                            </div>
+                            <div class="musicName">這群人 TGOP│職業大暴走 Wrath of the Industry</div>
+                            <div class="musicInfo">
+                                <div class="actor">這群人TGOP</div>
+                                <div class="watching">觀看次數：1,467萬次．3年前</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="hdPic"><img src="https://i.ytimg.com/vi/xO90kA7JyG0/hq720.jpg"></div>
+                        <div class="cardInfo">
+                            <div class="circlePic"><img
+                                    src="https://yt3.ggpht.com/ytc/AAUvwnhIZ8bXIlmbBRP1mxvGiFc5K0VS1BYz1bUnb4ZM=s68-c-k-c0x00ffffff-no-rj">
+                            </div>
+                            <div class="musicName">小柯基把主人咬流血，还严重护食，这该怎么办？！</div>
+                            <div class="musicInfo">
+                                <div class="actor">国庆出去浪</div>
+                                <div class="watching">觀看次數：19萬次．1天前</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="hdPic"><img src="https://i.ytimg.com/vi/--giQqhWGdQ/hq720.jpg"></div>
+                        <div class="cardInfo">
+                            <div class="circlePic"><img
+                                    src="https://yt3.ggpht.com/ytc/AAUvwnjii3OBrH2XOySan_uKJ1ElYnWi3l8UfiQ3x77x7w=s88-c-k-c0x00ffffff-no-rj">
+                            </div>
+                            <div class="musicName">R3HAB & 蔡依林 Jolin Tsai《Stars Align》Official Music Video</div>
+                            <div class="musicInfo">
+                                <div class="actor">蔡依林 Jolin Tsai</div>
+                                <div class="watching">觀看次數：204萬次．5天前</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card">
+                        <div class="hdPic"><img src="https://i.ytimg.com/vi/DWDVNjqaX4o/hq720.jpg"></div>
+                        <div class="cardInfo">
+                            <div class="circlePic"><img
+                                    src="https://yt3.ggpht.com/ytc/AAUvwnjdL3U4zuVHT81nM6CnVLMi1EOXmPKJWiLULE9X=s68-c-k-c0x00ffffff-no-rj">
+                            </div>
+                            <div class="musicName">宮崎駿 - 鋼琴音樂 天籟琴聲 適合睡眠 舒眠 放鬆 看書 減壓 - PIANO MUSIC...</div>
+                            <div class="musicInfo">
+                                <div class="actor">鍾丹羿</div>
+                                <div class="watching">觀看次數：41,764次</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="hdPic"><img src="https://i.ytimg.com/vi/5vheNbQlsyU/hq720.jpg"></div>
+                        <div class="cardInfo">
+                            <div class="circlePic"><img
+                                    src="https://yt3.ggpht.com/ytc/AAUvwnihQs4JYGxS3xxKgkGKd3ivwVuYNufIM8YmHf4zpvg=s88-c-k-c0x00ffffff-no-rj">
+                            </div>
+                            <div class="musicName">Lady Gaga, Bradley Cooper - Shallow (from A Star Is Born)</div>
+                            <div class="musicInfo">
+                                <div class="actor">Lady Gaga</div>
+                                <div class="watching">觀看次數：10億次‧2年前</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="hdPic"><img src="https://i.ytimg.com/vi/ODgTP0xAi2c/hq720.jpg"></div>
+                        <div class="cardInfo">
+                            <div class="circlePic"><img
+                                    src="https://yt3.ggpht.com/ytc/AAUvwnhDQ10gWHK3Wj7HxsjXYrdmvfmtU_8cprZV_v31=s68-c-k-c0x00ffffff-no-rj">
+                            </div>
+                            <div class="musicName">지브리 스튜디오 OST 곡 모음10시간 연속재생 株式会社スタジオジブリ...</div>
+                            <div class="musicInfo">
+                                <div class="actor">스튜디오 지브리 Ghibli Studio</div>
+                                <div class="watching">觀看次數：2.6萬次．1個月前</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="hdPic"><img src="https://i.ytimg.com/vi/lswoCJn3JNA/hq720.jpg"></div>
+                        <div class="cardInfo">
+                            <div class="circlePic"><img
+                                    src="https://yt3.ggpht.com/ytc/AAUvwniqAsOkhXdwEBfNHsVROd7EDqOjlAhBnjXriQIz2g=s68-c-k-c0x00ffffff-no-rj">
+                            </div>
+                            <div class="musicName">我們這一家 第011話【媽媽出現了/媽媽的用詞】| Muse木棉花 動畫 線上看</div>
+                            <div class="musicInfo">
+                                <div class="actor">Muse木棉花-TW</div>
+                                <div class="watching">觀看次數：87萬次‧9個月前</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="hotTitle">COVID-19 新聞</div>
+                    <div class="card">
+                        <div class="hdPic"><img src="https://i.ytimg.com/vi/JwdnLxwTc54/hq720.jpg"></div>
+                        <div class="cardInfo">
+                            <div class="circlePic"><img
+                                    src="https://yt3.ggpht.com/ytc/AAUvwnjrO-mjY1JSV-h_Wn1a9yLjNj7Bp8vpAxjOXaIwaA=s68-c-k-c0x00ffffff-no-rj">
+                            </div>
+                            <div class="musicName">新冠病毒全球疫情｜更新時間 2021/04/26 17:00</div>
+                            <div class="musicInfo">
+                                <div class="actor">華視新聞 CH52</div>
+                                <div class="watching">觀看次數：1,9萬次．2天前</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="hdPic"><img src="https://i.ytimg.com/vi/bnDSwLr-zEo/hq720.jpg"></div>
+                        <div class="cardInfo">
+                            <div class="circlePic"><img
+                                    src="https://yt3.ggpht.com/ytc/AAUvwnjI4ugAxuWGM3U6NavGUhL_cWxYEvGRN4rlJtea=s68-c-k-c0x00ffffff-no-rj">
+                            </div>
+                            <div class="musicName">伊拉克新冠病毒專責醫院 氧氣瓶爆炸起火釀82死｜20210426 公視中晝新聞</div>
+                            <div class="musicInfo">
+                                <div class="actor">公視新聞網</div>
+                                <div class="watching">觀看次數：1,6萬次．2天前</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="hdPic"><img src="https://i.ytimg.com/vi/MW3AaCsjXVo/hq720.jpg"></div>
+                        <div class="cardInfo">
+                            <div class="circlePic"><img
+                                    src="https://yt3.ggpht.com/ytc/AAUvwnhTurbXfwL0KVflTQCigyojitYB2cBuKxqLiN9XLw=s68-c-k-c0x00ffffff-no-rj">
+                            </div>
+                            <div class="musicName">COVID-19 新冠病毒全球疫情懶人包 台灣本土病例+3！全球總確診數達1億487...</div>
+                            <div class="musicInfo">
+                                <div class="actor">ETtoday新聞雲</div>
+                                <div class="watching">觀看次數：3549次．20小時前</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="hdPic"><img src="https://i.ytimg.com/vi/6tKlnHZJZo4/hq720.jpg"></div>
+                        <div class="cardInfo">
+                            <div class="circlePic"><img
+                                    src="https://yt3.ggpht.com/ytc/AAUvwnjtGqCrgAs1xNXwKqcku32mGaf3eQJyl76UmVyH3Q=s68-c-k-c0x00ffffff-no-rj">
+                            </div>
+                            <div class="musicName">LIVE - 華航機師染疫案最新發展 陳時中親說明</div>
+                            <div class="musicInfo">
+                                <div class="actor">自由時報電子報</div>
+                                <div class="watching">觀看次數：2.1萬次．1天前</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card">
+                        <div class="hdPic"><img src="https://i.ytimg.com/vi/9do1Uw4w-IU/hq720.jpg"></div>
+                        <div class="cardInfo">
+                            <div class="circlePic"><img
+                                    src="https://yt3.ggpht.com/ytc/AAUvwnh8F7NmRjrQtFmYzYi6oJLmTahKbSD2q7EQBVGe=s68-c-k-c0x00ffffff-no-rj">
+                            </div>
+                            <div class="musicName">2020年最火的英文歌曲 + 歐美流行音樂 + 超好聽中文+英文歌曲(精心挑選) ...</div>
+                            <div class="musicInfo">
+                                <div class="actor">超好聽的英文歌</div>
+                                <div class="watching">觀看次數：315萬次‧直播時間：8個月前</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="hdPic"><img src="https://i.ytimg.com/vi/s-DnxnHT-_I/hq720.jpg"></div>
+                        <div class="cardInfo">
+                            <div class="circlePic"><img
+                                    src="https://yt3.ggpht.com/ytc/AAUvwnhGRYE2ayzeu4mqNNpvMBW-MbchzRMCCRRPuAXQ=s68-c-k-c0x00ffffff-no-rj">
+                            </div>
+                            <div class="musicName">俗女養肥記帶大家來吃新營美食！一起重遊舊地！來看看每天在新營都在吃...</div>
+                            <div class="musicInfo">
+                                <div class="actor">就是這味</div>
+                                <div class="watching">觀看次數：3.7萬次‧1天前</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="hdPic"><img src="https://i.ytimg.com/vi/adLGHcj_fmA/hq720.jpg"></div>
+                        <div class="cardInfo">
+                            <div class="circlePic"><img
+                                    src="https://yt3.ggpht.com/ytc/AAUvwnjQGfD8VqPmCMjy5Bx06LExf7GwMQ_BijYt2eFBP2o=s88-c-k-c0x00ffffff-no-rj">
+                            </div>
+                            <div class="musicName">Bruno Mars, Anderson .Paak, Silk Sonic - Leave the Door Open</div>
+                            <div class="musicInfo">
+                                <div class="actor">Bruno Mars</div>
+                                <div class="watching">觀看次數：1.7億次‧一個月前</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="hdPic"><img src="https://i.ytimg.com/vi/QGJuMBdaqIw/hq720.jpg"></div>
+                        <div class="cardInfo">
+                            <div class="circlePic"><img
+                                    src="https://yt3.ggpht.com/ytc/AAUvwni2IqB_Tr_syYj-BkYc2vMFnNgjFCIVKKNFaWPaew=s88-c-k-c0x00ffffff-no-rj">
+                            </div>
+                            <div class="musicName">Katy Perry - Firework (Official Music Video)</div>
+                            <div class="musicInfo">
+                                <div class="actor">Katy Perry</div>
+                                <div class="watching">觀看次數：13億次‧10年前</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card">
+                        <div class="hdPic"><img src="https://i.ytimg.com/vi/DWDVNjqaX4o/hq720.jpg"></div>
+                        <div class="cardInfo">
+                            <div class="circlePic"><img
+                                    src="https://yt3.ggpht.com/ytc/AAUvwnjdL3U4zuVHT81nM6CnVLMi1EOXmPKJWiLULE9X=s68-c-k-c0x00ffffff-no-rj">
+                            </div>
+                            <div class="musicName">宮崎駿 - 鋼琴音樂 天籟琴聲 適合睡眠 舒眠 放鬆 看書 減壓 - PIANO MUSIC...</div>
+                            <div class="musicInfo">
+                                <div class="actor">鍾丹羿</div>
+                                <div class="watching">觀看次數：41,764次</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="hdPic"><img src="https://i.ytimg.com/vi/5vheNbQlsyU/hq720.jpg"></div>
+                        <div class="cardInfo">
+                            <div class="circlePic"><img
+                                    src="https://yt3.ggpht.com/ytc/AAUvwnihQs4JYGxS3xxKgkGKd3ivwVuYNufIM8YmHf4zpvg=s88-c-k-c0x00ffffff-no-rj">
+                            </div>
+                            <div class="musicName">Lady Gaga, Bradley Cooper - Shallow (from A Star Is Born)</div>
+                            <div class="musicInfo">
+                                <div class="actor">Lady Gaga</div>
+                                <div class="watching">觀看次數：10億次‧2年前</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="hdPic"><img src="https://i.ytimg.com/vi/ODgTP0xAi2c/hq720.jpg"></div>
+                        <div class="cardInfo">
+                            <div class="circlePic"><img
+                                    src="https://yt3.ggpht.com/ytc/AAUvwnhDQ10gWHK3Wj7HxsjXYrdmvfmtU_8cprZV_v31=s68-c-k-c0x00ffffff-no-rj">
+                            </div>
+                            <div class="musicName">지브리 스튜디오 OST 곡 모음10시간 연속재생 株式会社スタジオジブリ...</div>
+                            <div class="musicInfo">
+                                <div class="actor">스튜디오 지브리 Ghibli Studio</div>
+                                <div class="watching">觀看次數：2.6萬次．1個月前</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="hdPic"><img src="https://i.ytimg.com/vi/lswoCJn3JNA/hq720.jpg"></div>
+                        <div class="cardInfo">
+                            <div class="circlePic"><img
+                                    src="https://yt3.ggpht.com/ytc/AAUvwniqAsOkhXdwEBfNHsVROd7EDqOjlAhBnjXriQIz2g=s68-c-k-c0x00ffffff-no-rj">
+                            </div>
+                            <div class="musicName">我們這一家 第011話【媽媽出現了/媽媽的用詞】| Muse木棉花 動畫 線上看</div>
+                            <div class="musicInfo">
+                                <div class="actor">Muse木棉花-TW</div>
+                                <div class="watching">觀看次數：87萬次‧9個月前</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+</body>
+
+</html>
